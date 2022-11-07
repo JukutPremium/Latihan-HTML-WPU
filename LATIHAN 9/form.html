@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+
+
+<!-- [<form></form>] Tag yang digunakan Untuk membuat Formui
+     
+     [ATRIBUT] 
+
+     [input]   = dimana user bisa meng-inputkan sesuatu contoh : text, password, radio, checkbox
+
+     [texarea] = dimana user bisa meng-inputkan kalimat yang lebih panjang seperti komentar dll
+
+     [selec]   = digunakan untuk membuat drop down atau combo box
+
+     [button]  = untuk membuat tombol
+ 
+     [label]   = untuk menandai elemen input
+ -->
+
+
+
+<form>
+	<label for="username">username : </label>
+	<input type="text" id="username">
+	  <br>
+
+	<label for="password">password :</label>
+	<input type="password" id="password">
+	  <br>
+
+	<input type="radio" id="pria" name="gender"><label for="pria">pria</label>
+	<input type="radio" id="wanita" name="gender"><label for="wanita">wanita</label>
+	  <br>
+
+	<input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label>
+	<input type="checkbox" id="makan"><label for="makan">makan</label>
+	<input type="checkbox" id="olah raga"><label for="olah raga">olah raga</label>
+	  <br>
+
+	<input type="submit" value="kirim"> 
+	<!-- 
+		Tidak Disarankan menggunakan Tag input Untuk Memebuat Tombol, Sebaiknya Menggunakan Tag [<button type=""></button>]
+
+		[ATRIBUT]
+
+		[submit] = Untuk mengirim
+
+		[reset]  = Untuk Me-Reset
+
+		[button] = untuk membuat Button
+	-->
+
+</form>
+
+</body>
+</html>

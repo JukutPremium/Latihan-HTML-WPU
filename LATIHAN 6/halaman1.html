@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hyperlink - Halaman 1</title>
+</head>
+<body>
+    <!-- 
+================----------------------------------------------------------------------------------------------
+!.0      Hyperlink yang bertujuan untuk menambahkan tautan ke sebuah text dengan tag [<a href=""></a>](nilai 
+         di dalam herf merupakan tautan atau link (extermnal link & internal link) yang di taruh di dalam text untuk menuju halaman lain. Khusus untuk Internal Link, jika halaman berada di folder yang berbeda harus ditambahkan nama atau alamat folder Contoh : [<a href="LATIHAN 1/halaman1.html"></a>]) 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ A.contoh       [CONTOH] <p><a href="https://dsc.gg/instinknetwork"></a>Click Here</p> [EXTERNAL LINK]
+
+                [CONTOH] <p><a href="halaman2.html | admin/halaman3.html | ../user/halaman4 | ../halaman1"></a>Click Here</p> [INTERNAL LINK]
+
+                [CONTOH] <p><a href="#bagian3 | page.html#bagian3 | ../page.html#gabian2"></a>Click Here</p>
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ A.fungsi       [PENJELASAN FUNGSI]
+                [..] Untuk Kembali Ke Folder Awal
+                [/]  Untuk Masuk Ke Halaman
+                [#]  Untuk Lompat Ke Bagian
+================----------------------------------------------------------------------------------------------
+ B.     [TAG target=""] dimana tag target berfungsi untuk menentukan link dalam sebuah (herf="") akan dibuka 
+        dengan tab baru atau tidak
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ B.contoh       [CONTOH] <p><a href="https://dsc.gg/instinknetwork" targer="_blank">Click Here To Join</a>
+                Invite Link Instink Network</p>  (dibuka dengan tab baru / new tab)
+
+                [CONTOH] <p><a href="https://dsc.gg/instinknetwork" targer="_self">Click Here To Join</a>Invite Link Instink Network</p>  (dibuka tidak dengan tab baru / new tab)  
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+B.fungsi        [PENJELASAN FUNGSI]
+                [_self] membuka halaman dengan tidak membuka di tab baru
+                [_blank] membuka halaman dengan membuka di tab baru
+===========================================================================================================-->
+
+    <h3>Internal Link - Ke Halaman 2</h3>
+
+	<p><a href="halaman2.html">Click here to jump</a> untuk membuka halaman 2</p>
+
+    <hr>
+
+    <h3>Internal Link - Ke Halaman admin/halaman3</h3>
+
+	<p><a href="admin/halaman3.html">Click here to jump</a> untuk membuka halaman 3</p>
+
+    <hr>
+
+    <h3>Internal Link - Ke Halaman user/halaman4</h3>
+
+	<p><a href="user/halaman4.html" target="_blank">Click here to jump</a> untuk membuka halaman 4</p>
+
+    <hr>
+
+    <h3>Internal Link - Page HTML</h3>
+
+	<p><a href="page.html">Click here to jump</a> untuk membuka Page HTML</p>
+	<p><a href="page.html#bagian3">Click here to jump</a> untuk membuka Page HTML, Bagian 3</p>
+
+    <hr>
+
+    <h3>External Link - Ke Link Invite Instink Network</h3>
+
+	<p><a href="https://dsc.gg/instinknetwork">Click here to Join</a> untuk bergabung ke server instink network</p>
+    
+    <hr>
+    
+
+</body>
+</html>
